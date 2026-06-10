@@ -6,7 +6,14 @@
   "exports": {
     ".": "./index.js",
     "./tailwind": "./tailwind.config.js",
-    "./css/*": "./css/*"
+    "./css/shared.css": "./css/shared.css",
+    "./css/themes/allocation-game.css": "./css/themes/allocation-game.css",
+    "./css/themes/black-swan.css": "./css/themes/black-swan.css",
+    "./css/themes/fast-forward.css": "./css/themes/fast-forward.css",
+    "./css/themes/hard-call.css": "./css/themes/hard-call.css",
+    "./css/themes/org-surgery.css": "./css/themes/org-surgery.css",
+    "./css/themes/predator.css": "./css/themes/predator.css",
+    "./css/themes/war-room.css": "./css/themes/war-room.css"
   },
   "files": [
     "index.js",
