@@ -1,12 +1,16 @@
 {
   "name": "@weevolution/sim-ds",
-  "version": "0.1.0",
-  "description": "Weevolution Simulation Design System — token ve Tailwind config katmanı",
+  "version": "0.2.0",
+  "description": "Weevolution Simulation Design System — token, tema ve paylaşılan React bileşenleri",
   "type": "module",
   "exports": {
-    ".": "./index.js",
+    ".": "./dist/index.js",
     "./tailwind": "./tailwind.config.js",
     "./themes": "./themes.js",
+    "./shells": "./dist/shells/index.js",
+    "./feedback": "./dist/feedback/index.js",
+    "./entry": "./dist/entry/index.js",
+    "./decision": "./dist/decision/index.js",
     "./css/shared.css": "./css/shared.css",
     "./css/themes/allocation-game.css": "./css/themes/allocation-game.css",
     "./css/themes/black-swan.css": "./css/themes/black-swan.css",
@@ -17,16 +21,30 @@
     "./css/themes/war-room.css": "./css/themes/war-room.css"
   },
   "files": [
-    "index.js",
+    "dist/",
     "tailwind.config.js",
     "themes.js",
     "css/",
     "src/"
   ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
   "keywords": ["simulation", "design-system", "weevolution", "tailwind"],
   "license": "UNLICENSED",
   "private": true,
   "peerDependencies": {
-    "tailwindcss": "^3.0.0"
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "tailwindcss": "^3.0.0 || ^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.0"
   }
 }
