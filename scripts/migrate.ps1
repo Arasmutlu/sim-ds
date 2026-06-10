@@ -4,6 +4,9 @@
 # Kullanım:
 #   .\migrate.ps1 -RepoPath "C:\path\to\black-swan-repo" -SimId "black-swan"
 #
+# GitHub: https://github.com/Arasmutlu/sim-ds
+# Üretim için package.json'da: "github:Arasmutlu/sim-ds#main"
+#
 # Desteklenen sim ID'leri:
 #   black-swan | hard-call | war-room | predator |
 #   allocation-game | fast-forward | org-surgery
