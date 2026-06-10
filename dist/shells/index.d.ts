@@ -17,8 +17,11 @@ interface FacilitatorShellProps {
     sessionCode: string;
     isLive: boolean;
     children: React.ReactNode;
+    /** Right panel (35%). If omitted, content fills full width. */
+    rightPanel?: React.ReactNode;
+    className?: string;
 }
-declare function FacilitatorShell({ sim, simLabel, sessionCode, isLive, children, }: FacilitatorShellProps): React.JSX.Element;
+declare function FacilitatorShell({ sim, simLabel, sessionCode, isLive, children, rightPanel, className, }: FacilitatorShellProps): React.JSX.Element;
 
 interface StratejiBoardShellProps {
     sim: SimId;
