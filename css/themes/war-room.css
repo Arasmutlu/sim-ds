@@ -1,0 +1,64 @@
+/*
+ * War Room — Atmosfer Paketi
+ * Paradigma: Serious | Domain: Strateji & Rekabet
+ * His: Analitik, hesaplı, rekabetçi baskı
+ */
+
+:root {
+  --sim-primary:          #1C2B3A;
+  --sim-primary-hover:    #131F2A;
+  --sim-primary-subtle:   #EBF2FA;
+
+  --sim-accent:           #2D6A9F;
+  --sim-accent-hover:     #245783;
+  --sim-accent-muted:     #EBF5FF;
+
+  --sim-surface:          #F1F3F5;
+  --sim-surface-elevated: #FFFFFF;
+  --sim-surface-sunken:   #E4E8ED;
+
+  --sim-text:             #1C2B3A;
+  --sim-text-muted:       #8899A6;
+  --sim-text-placeholder: #B0BEC5;
+  --sim-text-inverse:     #FFFFFF;
+
+  --sim-border:           #CBD5E1;
+  --sim-border-strong:    #1C2B3A;
+  --sim-border-subtle:    #E2E8F0;
+
+  --timer-warning-threshold:  35;
+  --timer-critical-threshold: 15;
+
+  --sim-font-display: system-ui, -apple-system, sans-serif;
+  --sim-font-body:    system-ui, -apple-system, sans-serif;
+  --sim-font-mono:    'JetBrains Mono', 'Courier New', monospace;
+
+  --sim-button-bg:          var(--sim-primary);
+  --sim-button-text:        #FFFFFF;
+  --sim-button-hover:       var(--sim-primary-hover);
+
+  --sim-card-bg:            var(--sim-surface-elevated);
+  --sim-card-border:        var(--sim-border);
+  --sim-card-shadow:        0 1px 4px rgba(28,43,58,0.10);
+
+  --sim-input-bg:           #FFFFFF;
+  --sim-input-border:       var(--sim-border);
+  --sim-input-focus:        var(--sim-accent);
+
+  --sim-chaos-bg:           #FFF7ED;
+  --sim-chaos-border:       #F97316;
+  --sim-chaos-text:         #9A3412;
+
+  /* ── Strateji Engine: pazar verisi ───────────────────── */
+  --market-positive:        #16A34A;
+  --market-negative:        #DC2626;
+  --market-neutral:         #6B7280;
+  --market-leader:          #2D6A9F;
+  --market-grid-line:       #E2E8F0;
+
+  /* ── Ekip Renkleri ────────────────────────────────────── */
+  --team-1: #1C2B3A;
+  --team-2: #2D6A9F;
+  --team-3: #0F766E;
+  --team-4: #7C3AED;
+}

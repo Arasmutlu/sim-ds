@@ -1,0 +1,65 @@
+/*
+ * Black Swan — Atmosfer Paketi
+ * Paradigma: Serious | Domain: Kriz & Baskı
+ * His: Tehlike, aciliyet, baskı altında karar
+ */
+
+:root {
+  /* ── Birincil Kimlik ──────────────────────────────────── */
+  --sim-primary:          #1A1A1A;
+  --sim-primary-hover:    #2D2D2D;
+  --sim-primary-subtle:   #F0EBE4;
+
+  --sim-accent:           #CC2200;
+  --sim-accent-hover:     #A81C00;
+  --sim-accent-muted:     #FFF0EE;
+
+  /* ── Zemin ────────────────────────────────────────────── */
+  --sim-surface:          #F0EBE4;
+  --sim-surface-elevated: #FAF7F4;
+  --sim-surface-sunken:   #E6DDD4;
+
+  /* ── Metin ────────────────────────────────────────────── */
+  --sim-text:             #1A1A1A;
+  --sim-text-muted:       #6B6B6B;
+  --sim-text-placeholder: #A0A0A0;
+  --sim-text-inverse:     #FFFFFF;
+
+  /* ── Kenarlık ─────────────────────────────────────────── */
+  --sim-border:           #D6CFC8;
+  --sim-border-strong:    #1A1A1A;
+  --sim-border-subtle:    #EDE8E2;
+
+  /* ── Zamanlayıcı Eşikleri (Black Swan: kriz hızlı gelir) */
+  --timer-warning-threshold:  40;   /* %40 altında uyarı */
+  --timer-critical-threshold: 15;   /* %15 altında kritik */
+
+  /* ── Tipografi Karakteri ──────────────────────────────── */
+  --sim-font-display: 'Georgia', 'Times New Roman', serif;
+  --sim-font-body:    system-ui, -apple-system, sans-serif;
+  --sim-font-mono:    'Courier New', monospace;
+
+  /* ── Bileşen Token'ları ───────────────────────────────── */
+  --sim-button-bg:          var(--sim-primary);
+  --sim-button-text:        #FFFFFF;
+  --sim-button-hover:       var(--sim-primary-hover);
+
+  --sim-card-bg:            var(--sim-surface-elevated);
+  --sim-card-border:        var(--sim-border);
+  --sim-card-shadow:        0 1px 3px rgba(26,26,26,0.12);
+
+  --sim-input-bg:           #FFFFFF;
+  --sim-input-border:       var(--sim-border);
+  --sim-input-focus:        var(--sim-accent);
+
+  /* ── Chaos Element Vurgusu ────────────────────────────── */
+  --sim-chaos-bg:           #FFF0EE;
+  --sim-chaos-border:       var(--sim-accent);
+  --sim-chaos-text:         var(--sim-accent);
+
+  /* ── Rol Renkleri (multi-team) ────────────────────────── */
+  --role-1: #1A1A1A;
+  --role-2: #CC2200;
+  --role-3: #5C3317;
+  --role-4: #6B6B6B;
+}

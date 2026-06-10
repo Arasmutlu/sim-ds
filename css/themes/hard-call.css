@@ -1,0 +1,59 @@
+/*
+ * Hard Call — Atmosfer Paketi
+ * Paradigma: Serious | Domain: Etik & Değer
+ * His: Ağırlık, yansıma, ahlaki cesaret
+ */
+
+:root {
+  /* ── Birincil Kimlik ──────────────────────────────────── */
+  --sim-primary:          #1F4D3A;
+  --sim-primary-hover:    #173D2E;
+  --sim-primary-subtle:   #E8F0EC;
+
+  --sim-accent:           #478768;
+  --sim-accent-hover:     #3A7057;
+  --sim-accent-muted:     #F0F7F3;
+
+  /* ── Zemin ────────────────────────────────────────────── */
+  --sim-surface:          #F7F5EF;
+  --sim-surface-elevated: #FFFFFF;
+  --sim-surface-sunken:   #EDE9E0;
+
+  /* ── Metin ────────────────────────────────────────────── */
+  --sim-text:             #1A2E25;
+  --sim-text-muted:       #5F7368;
+  --sim-text-placeholder: #9DB3A8;
+  --sim-text-inverse:     #FFFFFF;
+
+  /* ── Kenarlık ─────────────────────────────────────────── */
+  --sim-border:           #D1E1D9;
+  --sim-border-strong:    #1F4D3A;
+  --sim-border-subtle:    #E8F0EC;
+
+  /* ── Zamanlayıcı Eşikleri (Hard Call: bireysel, daha az acil) */
+  --timer-warning-threshold:  30;
+  --timer-critical-threshold: 10;
+
+  /* ── Tipografi Karakteri ──────────────────────────────── */
+  --sim-font-display: system-ui, -apple-system, sans-serif;
+  --sim-font-body:    system-ui, -apple-system, sans-serif;
+  --sim-font-mono:    'Courier New', monospace;
+
+  /* ── Bileşen Token'ları ───────────────────────────────── */
+  --sim-button-bg:          var(--sim-primary);
+  --sim-button-text:        #FFFFFF;
+  --sim-button-hover:       var(--sim-primary-hover);
+
+  --sim-card-bg:            var(--sim-surface-elevated);
+  --sim-card-border:        var(--sim-border);
+  --sim-card-shadow:        0 1px 3px rgba(31,77,58,0.08);
+
+  --sim-input-bg:           #FFFFFF;
+  --sim-input-border:       var(--sim-border);
+  --sim-input-focus:        var(--sim-primary);
+
+  /* ── Chaos Element Vurgusu ────────────────────────────── */
+  --sim-chaos-bg:           #FEF3C7;
+  --sim-chaos-border:       #F59E0B;
+  --sim-chaos-text:         #92400E;
+}

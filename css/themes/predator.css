@@ -1,0 +1,63 @@
+/*
+ * Predator — Atmosfer Paketi
+ * Paradigma: Serious | Domain: Strateji & Rekabet
+ * His: Avlama, baskı, agresif rekabet
+ */
+
+:root {
+  --sim-primary:          #0F1B2D;
+  --sim-primary-hover:    #1A2F47;
+  --sim-primary-subtle:   #E8EDF3;
+
+  --sim-accent:           #C2410C;
+  --sim-accent-hover:     #9A340A;
+  --sim-accent-muted:     #FFF4EE;
+
+  --sim-surface:          #F5F6F8;
+  --sim-surface-elevated: #FFFFFF;
+  --sim-surface-sunken:   #1A2332;
+
+  --sim-text:             #0F1B2D;
+  --sim-text-muted:       #64748B;
+  --sim-text-placeholder: #94A3B8;
+  --sim-text-inverse:     #FFFFFF;
+
+  --sim-border:           #CBD5E1;
+  --sim-border-strong:    #0F1B2D;
+  --sim-border-subtle:    #E2E8F0;
+
+  --timer-warning-threshold:  40;
+  --timer-critical-threshold: 20;
+
+  --sim-font-display: system-ui, -apple-system, sans-serif;
+  --sim-font-body:    system-ui, -apple-system, sans-serif;
+  --sim-font-mono:    'JetBrains Mono', 'Courier New', monospace;
+
+  --sim-button-bg:          var(--sim-primary);
+  --sim-button-text:        #FFFFFF;
+  --sim-button-hover:       var(--sim-primary-hover);
+
+  --sim-card-bg:            var(--sim-surface-elevated);
+  --sim-card-border:        var(--sim-border);
+  --sim-card-shadow:        0 1px 4px rgba(15,27,45,0.12);
+
+  --sim-input-bg:           #FFFFFF;
+  --sim-input-border:       var(--sim-border);
+  --sim-input-focus:        var(--sim-accent);
+
+  --sim-chaos-bg:           #FFF0EE;
+  --sim-chaos-border:       var(--sim-accent);
+  --sim-chaos-text:         var(--sim-accent);
+
+  /* ── Strateji Engine: pazar verisi (War Room ile uyumlu) */
+  --market-positive:        #16A34A;
+  --market-negative:        #DC2626;
+  --market-neutral:         #6B7280;
+  --market-leader:          #C2410C;
+  --market-grid-line:       #E2E8F0;
+
+  /* ── AI Rakip Göstergesi ──────────────────────────────── */
+  --ai-opponent-color:      #7C3AED;
+  --ai-reveal-bg:           #F5F3FF;
+  --ai-reveal-border:       #7C3AED;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@weevolution/sim-ds",
+  "version": "0.1.0",
+  "description": "Weevolution Simulation Design System — token ve Tailwind config katmanı",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./tailwind": "./tailwind.config.js",
+    "./css/*": "./css/*"
+  },
+  "files": [
+    "index.js",
+    "tailwind.config.js",
+    "css/"
+  ],
+  "keywords": ["simulation", "design-system", "weevolution", "tailwind"],
+  "license": "UNLICENSED",
+  "private": true,
+  "peerDependencies": {
+    "tailwindcss": "^3.0.0"
+  }
+}

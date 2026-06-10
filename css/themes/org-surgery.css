@@ -1,0 +1,65 @@
+/*
+ * Org Surgery — Atmosfer Paketi
+ * Paradigma: Serious | Domain: Organizasyon & Sistem
+ * His: Klinik, objektif, yapısal analiz
+ */
+
+:root {
+  --sim-primary:          #334155;
+  --sim-primary-hover:    #243345;
+  --sim-primary-subtle:   #F1F5F9;
+
+  --sim-accent:           #0F766E;
+  --sim-accent-hover:     #0C5E58;
+  --sim-accent-muted:     #F0FDFA;
+
+  --sim-surface:          #F8FAFC;
+  --sim-surface-elevated: #FFFFFF;
+  --sim-surface-sunken:   #EEF2F7;
+
+  --sim-text:             #334155;
+  --sim-text-muted:       #64748B;
+  --sim-text-placeholder: #94A3B8;
+  --sim-text-inverse:     #FFFFFF;
+
+  --sim-border:           #CBD5E1;
+  --sim-border-strong:    #334155;
+  --sim-border-subtle:    #E2E8F0;
+
+  --timer-warning-threshold:  30;
+  --timer-critical-threshold: 10;
+
+  --sim-font-display: system-ui, -apple-system, sans-serif;
+  --sim-font-body:    system-ui, -apple-system, sans-serif;
+  --sim-font-mono:    'JetBrains Mono', 'Courier New', monospace;
+
+  --sim-button-bg:          var(--sim-primary);
+  --sim-button-text:        #FFFFFF;
+  --sim-button-hover:       var(--sim-primary-hover);
+
+  --sim-card-bg:            var(--sim-surface-elevated);
+  --sim-card-border:        var(--sim-border);
+  --sim-card-shadow:        0 1px 3px rgba(51,65,85,0.08);
+
+  --sim-input-bg:           #FFFFFF;
+  --sim-input-border:       var(--sim-border);
+  --sim-input-focus:        var(--sim-accent);
+
+  --sim-chaos-bg:           #FFFBEB;
+  --sim-chaos-border:       #F59E0B;
+  --sim-chaos-text:         #92400E;
+
+  /* ── Org Canvas (cooperative board) ──────────────────── */
+  --canvas-bg:              #F8FAFC;
+  --canvas-grid:            #E2E8F0;
+  --canvas-node-bg:         #FFFFFF;
+  --canvas-node-border:     #334155;
+  --canvas-edge:            #94A3B8;
+  --canvas-edge-active:     #0F766E;
+
+  /* ── Teşhis Renkleri ──────────────────────────────────── */
+  --diag-healthy:           #16A34A;
+  --diag-warning:           #D97706;
+  --diag-critical:          #DC2626;
+  --diag-unknown:           #6B7280;
+}

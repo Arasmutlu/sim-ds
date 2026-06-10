@@ -1,0 +1,112 @@
+/*
+ * Weevolution Simulation Design System
+ * shared.css — Yapısal token'lar, tüm simülasyonlarda aynı
+ *
+ * Kullanım: Her simülasyonun <head>'ine ekleyin
+ * <link href="[CDN_URL]/shared.css" rel="stylesheet">
+ */
+
+:root {
+
+  /* ── Zamanlayıcı ──────────────────────────────────────── */
+  --timer-normal-bg:      #E8F0EC;
+  --timer-normal-text:    #1F4D3A;
+  --timer-warning-bg:     #FEF3C7;
+  --timer-warning-text:   #92400E;
+  --timer-critical-bg:    #FEE2E2;
+  --timer-critical-text:  #991B1B;
+  --timer-border-radius:  9999px;
+
+  /* ── Toast Bildirimleri ───────────────────────────────── */
+  --toast-info-bg:        #EFF6FF;
+  --toast-info-text:      #1E40AF;
+  --toast-info-border:    #BFDBFE;
+
+  --toast-success-bg:     #ECFDF5;
+  --toast-success-text:   #065F46;
+  --toast-success-border: #A7F3D0;
+
+  --toast-warning-bg:     #FFFBEB;
+  --toast-warning-text:   #92400E;
+  --toast-warning-border: #FDE68A;
+
+  --toast-critical-bg:    #FFF1F2;
+  --toast-critical-text:  #9F1239;
+  --toast-critical-border:#FECDD3;
+
+  /* ── Katılımcı Durum Renkleri ─────────────────────────── */
+  --status-active-bg:     #DBEAFE;
+  --status-active-text:   #1E40AF;
+  --status-completed-bg:  #DCFCE7;
+  --status-completed-text:#166534;
+  --status-stuck-bg:      #FEF3C7;
+  --status-stuck-text:    #92400E;
+  --status-waiting-bg:    #F3F4F6;
+  --status-waiting-text:  #6B7280;
+
+  /* ── Bağlantı Göstergesi ──────────────────────────────── */
+  --connection-live-bg:   #DCFCE7;
+  --connection-live-text: #166534;
+  --connection-live-dot:  #16A34A;
+  --connection-lost-bg:   #FEE2E2;
+  --connection-lost-text: #991B1B;
+  --connection-lost-dot:  #DC2626;
+
+  /* ── Geri Dönülemez Karar ─────────────────────────────── */
+  --confirm-overlay-bg:   rgba(0, 0, 0, 0.04);
+  --confirm-pause-ms:     300;
+
+  /* ── Spacing (4px grid) ───────────────────────────────── */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* ── Border Radius ────────────────────────────────────── */
+  --radius-sm:  4px;
+  --radius-md:  8px;
+  --radius-lg:  12px;
+  --radius-xl:  16px;
+  --radius-full: 9999px;
+
+  /* ── Tipografi Ölçeği ─────────────────────────────────── */
+  --text-xs:   0.75rem;   /* 12px */
+  --text-sm:   0.875rem;  /* 14px */
+  --text-base: 1rem;      /* 16px */
+  --text-lg:   1.125rem;  /* 18px */
+  --text-xl:   1.25rem;   /* 20px */
+  --text-2xl:  1.5rem;    /* 24px */
+  --text-3xl:  1.875rem;  /* 30px */
+  --text-4xl:  2.25rem;   /* 36px */
+
+  --leading-tight:  1.25;
+  --leading-normal: 1.5;
+  --leading-relaxed:1.625;
+
+  /* ── Shell Genişlikleri ───────────────────────────────── */
+  --shell-sm:   448px;   /* Karar, değer sıralama */
+  --shell-md:   512px;   /* Senaryo okuma (katılımcı standart) */
+  --shell-lg:   768px;   /* Karakter etkileşimi, multi-step */
+  --shell-xl:   896px;   /* Facilitatör dashboard */
+  --shell-full: 100%;    /* Strateji board (War Room, Predator) */
+
+  /* ── Animasyon ────────────────────────────────────────── */
+  --duration-fast:   150ms;
+  --duration-normal: 250ms;
+  --duration-slow:   400ms;
+  --ease-out: cubic-bezier(0.0, 0.0, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0.0, 0.2, 1);
+
+  /* ── Z-index ──────────────────────────────────────────── */
+  --z-base:    0;
+  --z-sticky:  100;
+  --z-overlay: 200;
+  --z-modal:   300;
+  --z-toast:   400;
+}
