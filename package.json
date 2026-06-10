@@ -6,6 +6,7 @@
   "exports": {
     ".": "./index.js",
     "./tailwind": "./tailwind.config.js",
+    "./themes": "./themes.js",
     "./css/shared.css": "./css/shared.css",
     "./css/themes/allocation-game.css": "./css/themes/allocation-game.css",
     "./css/themes/black-swan.css": "./css/themes/black-swan.css",
@@ -18,7 +19,9 @@
   "files": [
     "index.js",
     "tailwind.config.js",
-    "css/"
+    "themes.js",
+    "css/",
+    "src/"
   ],
   "keywords": ["simulation", "design-system", "weevolution", "tailwind"],
   "license": "UNLICENSED",
