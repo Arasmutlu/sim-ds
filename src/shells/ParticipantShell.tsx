@@ -30,7 +30,7 @@ export function ParticipantShell({
   return (
     <div
       data-sim={sim}
-      className={`w-full text-[var(--sim-text)] ${maxWidthClass[maxWidth]} mx-auto px-4 py-6 ${className}`}
+      className={`w-full text-[var(--sim-text)] ${maxWidthClass[maxWidth]} mx-auto ${className}`}
       style={style}
     >
       {children}
