@@ -2,23 +2,27 @@ import { jsx, jsxs } from 'react/jsx-runtime';
 
 // src/shells/ParticipantShell.tsx
 var maxWidthClass = {
-  sm: "max-w-[448px]",
-  md: "max-w-[512px]",
-  lg: "max-w-[768px]",
-  xl: "max-w-[896px]",
+  sm: "max-w-sm",
+  md: "max-w-md",
+  lg: "max-w-lg",
+  xl: "max-w-xl",
+  "2xl": "max-w-2xl",
+  "3xl": "max-w-3xl",
   full: "max-w-full"
 };
 function ParticipantShell({
   sim,
   maxWidth = "lg",
   children,
-  className = ""
+  className = "",
+  style
 }) {
   return /* @__PURE__ */ jsx(
     "div",
     {
       "data-sim": sim,
-      className: `min-h-screen bg-[var(--sim-surface)] text-[var(--sim-text)] ${maxWidthClass[maxWidth]} mx-auto px-4 py-6 ${className}`,
+      className: `w-full text-[var(--sim-text)] ${maxWidthClass[maxWidth]} mx-auto px-4 py-6 ${className}`,
+      style,
       children
     }
   );

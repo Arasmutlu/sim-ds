@@ -16,6 +16,6 @@ interface SimTheme {
     borderStrong: string;
     borderSubtle: string;
 }
-type MaxWidth = 'sm' | 'md' | 'lg' | 'xl' | 'full';
+type MaxWidth = 'sm' | 'md' | 'lg' | 'xl' | '2xl' | '3xl' | 'full';
 
 export type { MaxWidth as M, SimId as S, SimTheme as a };

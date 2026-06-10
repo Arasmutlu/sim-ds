@@ -1,13 +1,15 @@
 import React from 'react';
-import { S as SimId, M as MaxWidth } from '../types-CdvG1jck.js';
+import { S as SimId, M as MaxWidth } from '../types-DTBlN4Z7.js';
 
 interface ParticipantShellProps {
     sim: SimId;
     maxWidth?: MaxWidth;
     children: React.ReactNode;
     className?: string;
+    /** Background override — use for atmosphere/pressure effects */
+    style?: React.CSSProperties;
 }
-declare function ParticipantShell({ sim, maxWidth, children, className, }: ParticipantShellProps): React.JSX.Element;
+declare function ParticipantShell({ sim, maxWidth, children, className, style, }: ParticipantShellProps): React.JSX.Element;
 
 interface FacilitatorShellProps {
     sim: SimId;

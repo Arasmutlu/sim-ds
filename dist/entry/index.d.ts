@@ -1,5 +1,5 @@
 import React from 'react';
-import { S as SimId } from '../types-CdvG1jck.js';
+import { S as SimId } from '../types-DTBlN4Z7.js';
 
 type ParticipantRole = string;
 interface SessionEntryProps {

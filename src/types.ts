@@ -25,4 +25,4 @@ export interface SimTheme {
   borderSubtle:    string
 }
 
-export type MaxWidth = 'sm' | 'md' | 'lg' | 'xl' | 'full'
+export type MaxWidth = 'sm' | 'md' | 'lg' | 'xl' | '2xl' | '3xl' | 'full'
